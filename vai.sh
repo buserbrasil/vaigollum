@@ -1,2 +1,2 @@
 docker run --rm -p 4567:4567 -v $(pwd)/wiki:/wiki -v $(pwd)/aux:/aux --env-file=$(pwd)/gollum.env gollumwiki/gollum:v5.3.0 \
---css --config /aux/config.rb --allow-uploads dir --mathjax --template-dir /aux/templates
+--no-edit --css --config /aux/config.rb --allow-uploads dir --mathjax --template-dir /aux/templates
