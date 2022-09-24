@@ -6,9 +6,11 @@ git clone https://github.com/mojombo/gollum-demo.git
 mv gollum-demo wiki
 ```
 
-Esse repo aih passa a ser o "backend" do wiki
+Esse repo aih passa a ser o "backend" do wiki (esse repo gollum-demo é o nosso lorem ipsum pra poder trabalhar no layout)
 
-Cria o arquivo wiki/custom.css e faça o commit **nesse repositório interno**
+* Cria o arquivo wiki/custom.css e faça o commit **nesse repositório interno**
+* Cria o arquivo wiki/_Sidebar.md e digita qq coisa(markadown) e commita tb.
+
 
 ```bash
 vai.sh
